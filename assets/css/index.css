@@ -164,13 +164,13 @@ ul {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   color: var(--black-color);
   cursor: pointer;
-  transform: scale(0.9);
+  transform: scale(0.95);
   transition: 0.2s ease-in-out;
 }
 
 .sidebar__toggle:hover {
   transform: scale(1);
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Sidebar Toggle */
