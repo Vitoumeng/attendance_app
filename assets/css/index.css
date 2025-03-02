@@ -155,19 +155,21 @@ ul {
   top: 1.25rem;
   right: -1.25rem;
   background: var(--white-color);
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
+  font-size: var(--font-20-size);
   display: grid;
   place-content: center;
   border-radius: var(--radius);
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   color: var(--black-color);
   cursor: pointer;
+  transform: scale(0.9);
   transition: 0.2s ease-in-out;
 }
 
 .sidebar__toggle:hover {
-  transform: translateX(0.15rem);
+  transform: scale(1);
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
 }
 
